@@ -1,0 +1,18 @@
+tensorflow==2.15.0
+pandas 
+dvc
+ipykernel
+numpy 
+seaborn 
+matplotlib
+python-box
+PyYAML  # For using YAML files
+tqdm  # To see progress bar
+ensure  # so that data['key'] can also be accessed as data.key
+joblib
+types-PyYAML
+scipy
+Flask
+Flask-Cors
+
+-e .  # For setup.py, as setup.py will help in installing src folder as local package
