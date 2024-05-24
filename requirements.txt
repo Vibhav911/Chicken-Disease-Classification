@@ -8,7 +8,7 @@ matplotlib
 python-box
 PyYAML  # For using YAML files
 tqdm  # To see progress bar
-ensure  # so that data['key'] can also be accessed as data.key
+ensure  # will check that all arguments have a valid datatype
 joblib
 types-PyYAML
 scipy
