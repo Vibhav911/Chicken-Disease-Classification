@@ -1,1 +1,8 @@
-key : value
+AUGMENTATION: True
+IMAGE_SIZE: [224, 224, 3]  # As per VGG 16 model
+BATCH_SIZE: 16
+INCLUDE_TOP: False  # As we are using pre-trained model instead of training from scratch.
+EPOCHS: 10
+CLASSES: 2   # We have only two classes: Healthy , Coccidiosis
+WEIGHTS: imagenet
+LEARNING_RATE: 0.01
