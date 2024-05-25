@@ -26,6 +26,7 @@ list_of_files = [
     'setup.py',  # Will be used to setup the project
     'research/trials.ipynb',  # First experiments will be performed here, then will be written in the official files.
     'templates/index.html'  # FOr Web app
+    'app.py'  # FOr Web app
 ]
 
 
